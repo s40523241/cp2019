@@ -152,7 +152,36 @@ init_mathjax();
     <div id="tipue_search_content">W16  查驗考試 << <a href='W16  查驗考試.html'>Previous</a> <a href='video.html'>Next</a> >> video<br /><h1>W17個人成果回報考試</h1>
 <p></p>
 <p>倉儲Gist 單位轉換純Dart程式</p>
-<p><a href="https://gist.github.com/s40523241/193f8afac6acb3b5e0eab1867231fe17">https://gist.github.com/s40523241/193f8afac6acb3b5e0eab1867231fe17</a></p><br />W16  查驗考試 << <a href='W16  查驗考試.html'>Previous</a> <a href='video.html'>Next</a> >> video</div>
+<p><a href="https://gist.github.com/s40523241/193f8afac6acb3b5e0eab1867231fe17">https://gist.github.com/s40523241/193f8afac6acb3b5e0eab1867231fe17</a></p>
+<p></p>
+<script>
+function getDart(dirname){
+    source = "https://dartpad.github.io/embed-dart.html?gh_owner=s40523241&gh_repo=cp2019&gh_path=downloads/dart_ex/" + dirname + "&theme=dark";
+    document.getElementById("iframe").src = source ;
+}
+
+function getHtmlDart(dirname){
+    source = "https://dartpad.github.io/embed-html.html?gh_owner=s40523241&gh_repo=cp2019&gh_path=downloads/dart_ex/" + dirname + "&theme=dark";
+document.getElementById("iframe").src = source ;
+}
+
+function getFlutter(dirname){
+    source = "https://dartpad.github.io/embed-flutter.html?gh_owner=s40523241&gh_repo=cp2019&gh_path=downloads/dart_ex/" + dirname + "&theme=dark";
+document.getElementById("iframe").src = source ;
+}
+
+function largest(){
+document.getElementById("iframe").width = document.body.clientWidth ;
+document.getElementById("iframe").height = document.body.clientWidth*0.5 ;
+}
+
+function original(){
+document.getElementById("iframe").width = 800 ;
+document.getElementById("iframe").height = 600 ;
+}
+</script>
+<p><button onclick="largest()">放大</button> <button onclick="original()">回復</button></p>
+<p><iframe height="600" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=s40523241&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/BK&amp;theme=dark" width="800"></iframe></p><br />W16  查驗考試 << <a href='W16  查驗考試.html'>Previous</a> <a href='video.html'>Next</a> >> video</div>
         
     <!-- footer -->
       <div class="container">
