@@ -35,9 +35,6 @@
 <v t="leo.20180902120523.19"><vh>iframe 導入影片</vh></v>
 </v>
 </v>
-<v t="leo.20200109022113.1"><vh>影片</vh>
-<v t="leo.20200109022113.2"><vh>投影片快捷鍵</vh></v>
-</v>
 <v t="leo.20200109021333.1"><vh>自評成績</vh>
 <v t="leo.20200109021333.2"><vh>投影片快捷鍵</vh></v>
 </v>
@@ -304,6 +301,7 @@ QLineEdit#editorLabel {
 vertical: body pane on the botton</t>
 <t tx="leo.20200109021333.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
+    #自評成績
 @others
     &lt;/script&gt;
 &lt;/section&gt;
@@ -311,22 +309,10 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20200109021333.2">##自評成績
-60</t>
-<t tx="leo.20200109022113.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20200109022113.2">## W16影片
-&lt;iframe width="1280" height="720" src="https://youtu.be/HzUtbqj4AAo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-</t>
+<t tx="leo.20200109021333.2">60</t>
 <t tx="leo.20200109022526.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
+    #心得
 @others
     &lt;/script&gt;
 &lt;/section&gt;
@@ -334,7 +320,6 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20200109022526.2">##心得
-學習到如何編輯網頁的方法,讓我學會如何使用dart、html、css等等的程式,來畫出圖形、計算函式......等,也讓我學會如何使用ShareX拍影片、使用Asigub加上字幕，真的很方便。</t>
+<t tx="leo.20200109022526.2">學習到如何編輯網頁的方法,讓我學會如何使用dart、html、css等等的程式,來畫出圖形、計算函式......等,也讓我學會如何使用ShareX拍影片、使用Asigub加上字幕，真的很方便。</t>
 </tnodes>
 </leo_file>
