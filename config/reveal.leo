@@ -110,9 +110,7 @@ Created by [s40523241](https://s40523241.github.io/cp2019/content/index.html)
 						
 </t>
 <t tx="leo.20180902120523.17">## 重量轉換
-
-&lt;iframe width="800" height="600" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=s40523241&amp;amp;gh_repo=cp2019&amp;amp;gh_path=downloads/dart_ex/BK&amp;amp;theme=dark"frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-</t>
+&lt;iframe width="800" height="600" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=s40523241&amp;amp;gh_repo=cp2019&amp;amp;gh_path=downloads/dart_ex/BK&amp;amp;theme=dark"frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20180902120523.18">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -310,8 +308,6 @@ vertical: body pane on the botton</t>
 						
 </t>
 <t tx="leo.20200108234617.2">## 畫國旗
-
-&lt;iframe width="800" height="600" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=s40523241&amp;amp;gh_repo=cp2019&amp;amp;gh_path=downloads/dart_ex/flags&amp;amp;theme=dark"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-</t>
+&lt;iframe width="800" height="600" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=s40523241&amp;amp;gh_repo=cp2019&amp;amp;gh_path=downloads/dart_ex/flags&amp;amp;theme=dark"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 </tnodes>
 </leo_file>
