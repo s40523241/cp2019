@@ -34,9 +34,6 @@
 <v t="leo.20200108234617.1"><vh>導入縮排程式碼</vh>
 <v t="leo.20200108234617.2"><vh>引用程式碼</vh></v>
 </v>
-<v t="leo.20200108234648.1"><vh>導入縮排程式碼</vh>
-<v t="leo.20200108234648.2"><vh>引用程式碼</vh></v>
-</v>
 <v t="leo.20180902120523.18"><vh>導入影片</vh>
 <v t="leo.20180902120523.19"><vh>iframe 導入影片</vh></v>
 </v>
@@ -74,19 +71,14 @@ Created by [s40523241](https://s40523241.github.io/cp2019/content/index.html)
 </t>
 <t tx="leo.20180902120523.12"># 計算機程式作業
 
-&lt;small&gt;
 *[Github 個人倉儲](https://github.com/s40523241/cp2019/)
 
-&lt;small&gt;
 *[溫度轉換]()
 
-&lt;small&gt;
 *[重量轉換]()
 
-&lt;small&gt;
 *[畫國旗]()
 
-&lt;small&gt;
 *[心得]()</t>
 <t tx="leo.20180902120523.13">&lt;section&gt;
 @others
@@ -104,7 +96,7 @@ Created by [s40523241](https://s40523241.github.io/cp2019/content/index.html)
 
 						
 </t>
-<t tx="leo.20180902120523.15">&lt;iframe width="800" height="600" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=s40523241&amp;amp;gh_repo=cp2019&amp;amp;gh_path=downloads/dart_ex/temp1&amp;amp;theme=dark" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&gt;&lt;/iframe&gt;
+<t tx="leo.20180902120523.15">&lt;iframe width="800" height="600" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=s40523241&amp;amp;gh_repo=cp2019&amp;amp;gh_path=downloads/dart_ex/temp1&amp;amp;theme=dark" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 </t>
 <t tx="leo.20180902120523.16">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -117,33 +109,9 @@ Created by [s40523241](https://s40523241.github.io/cp2019/content/index.html)
 
 						
 </t>
-<t tx="leo.20180902120523.17">## 利用 Markdown 寫投影片
-以下利用 Markdown 格式展示 Python 程式碼:
-```
-@language python
-# use threading and subprocess to threading the make process
-import os
-import subprocess
-import threading
+<t tx="leo.20180902120523.17">## 重量轉換
 
-def domake():
-    
-    path = "../exposed/api/exposed"
-    ubuntu = "../Ubuntu"
-    
-    # create obj path
-    
-    if not os.path.exists(path+"/../obj"):
-        os.makedirs(path+"/../obj")
-    
-    subprocess.call(["make", "clean"], cwd=path)
-    subprocess.call("make", cwd=path)
-    subprocess.call(["cp", "{libslvs.so, _slvs.so, slvs.py}", ubuntu], cwd=path)
-    subprocess.call(["python3", "circle_ex.py"], cwd=path+"/"+ubuntu)
-    
-make = threading.Thread(target=domake)
-make.start()
-```
+&lt;iframe width="800" height="600" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=s40523241&amp;amp;gh_repo=cp2019&amp;amp;gh_path=downloads/dart_ex/BK&amp;amp;theme=dark"frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 </t>
 <t tx="leo.20180902120523.18">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -341,72 +309,9 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20200108234617.2">## 利用 Markdown 寫投影片
-以下利用 Markdown 格式展示 Python 程式碼:
-```
-@language python
-# use threading and subprocess to threading the make process
-import os
-import subprocess
-import threading
+<t tx="leo.20200108234617.2">## 畫國旗
 
-def domake():
-    
-    path = "../exposed/api/exposed"
-    ubuntu = "../Ubuntu"
-    
-    # create obj path
-    
-    if not os.path.exists(path+"/../obj"):
-        os.makedirs(path+"/../obj")
-    
-    subprocess.call(["make", "clean"], cwd=path)
-    subprocess.call("make", cwd=path)
-    subprocess.call(["cp", "{libslvs.so, _slvs.so, slvs.py}", ubuntu], cwd=path)
-    subprocess.call(["python3", "circle_ex.py"], cwd=path+"/"+ubuntu)
-    
-make = threading.Thread(target=domake)
-make.start()
-```
-</t>
-<t tx="leo.20200108234648.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20200108234648.2">## 利用 Markdown 寫投影片
-以下利用 Markdown 格式展示 Python 程式碼:
-```
-@language python
-# use threading and subprocess to threading the make process
-import os
-import subprocess
-import threading
-
-def domake():
-    
-    path = "../exposed/api/exposed"
-    ubuntu = "../Ubuntu"
-    
-    # create obj path
-    
-    if not os.path.exists(path+"/../obj"):
-        os.makedirs(path+"/../obj")
-    
-    subprocess.call(["make", "clean"], cwd=path)
-    subprocess.call("make", cwd=path)
-    subprocess.call(["cp", "{libslvs.so, _slvs.so, slvs.py}", ubuntu], cwd=path)
-    subprocess.call(["python3", "circle_ex.py"], cwd=path+"/"+ubuntu)
-    
-make = threading.Thread(target=domake)
-make.start()
-```
+&lt;iframe width="800" height="600" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=s40523241&amp;amp;gh_repo=cp2019&amp;amp;gh_path=downloads/dart_ex/flags&amp;amp;theme=dark"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 </t>
 </tnodes>
 </leo_file>
