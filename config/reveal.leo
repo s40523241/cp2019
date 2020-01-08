@@ -76,13 +76,13 @@ Created by [s40523241](https://s40523241.github.io/cp2019/content/index.html)
 
 *[Github 個人倉儲](https://github.com/s40523241/cp2019/)
 
-*[溫度轉換]()
+*[溫度轉換](https://s40523241.github.io/cp2019/reveal/index.html#/2)
 
-*[重量轉換]()
+*[重量轉換](https://s40523241.github.io/cp2019/reveal/index.html#/2/1)
 
-*[畫國旗]()
+*[畫國旗](https://s40523241.github.io/cp2019/reveal/index.html#/2/2)
 
-*[心得]()</t>
+*[心得](https://s40523241.github.io/cp2019/reveal/index.html#/4)</t>
 <t tx="leo.20180902120523.13">&lt;section&gt;
 @others
 &lt;/section&gt;
