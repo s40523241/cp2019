@@ -31,9 +31,6 @@
 <v t="leo.20180902120523.16"><vh>導入縮排程式碼</vh>
 <v t="leo.20180902120523.17"><vh>引用程式碼</vh></v>
 </v>
-<v t="leo.20200108234617.1"><vh>導入縮排程式碼</vh>
-<v t="leo.20200108234617.2"><vh>引用程式碼</vh></v>
-</v>
 <v t="leo.20180902120523.18"><vh>導入影片</vh>
 <v t="leo.20180902120523.19"><vh>iframe 導入影片</vh></v>
 </v>
@@ -97,6 +94,7 @@ Created by [s40523241](https://s40523241.github.io/cp2019/content/index.html)
 						
 </t>
 <t tx="leo.20180902120523.15">&lt;iframe width="800" height="600" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=s40523241&amp;amp;gh_repo=cp2019&amp;amp;gh_path=downloads/dart_ex/temp1&amp;amp;theme=dark" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
 </t>
 <t tx="leo.20180902120523.16">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -110,7 +108,9 @@ Created by [s40523241](https://s40523241.github.io/cp2019/content/index.html)
 						
 </t>
 <t tx="leo.20180902120523.17">## 重量轉換
-&lt;iframe width="800" height="600" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=s40523241&amp;amp;gh_repo=cp2019&amp;amp;gh_path=downloads/dart_ex/BK&amp;amp;theme=dark"frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+&lt;iframe width="800" height="600" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=s40523241&amp;amp;gh_repo=cp2019&amp;amp;gh_path=downloads/dart_ex/BK&amp;amp;theme=dark"frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
 <t tx="leo.20180902120523.18">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -120,11 +120,8 @@ Created by [s40523241](https://s40523241.github.io/cp2019/content/index.html)
 
 						
 </t>
-<t tx="leo.20180902120523.19">## 使用 iframe 導入影片
-
-### 導入影片 template
-
-&lt;iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+<t tx="leo.20180902120523.19">## 畫國旗
+&lt;iframe width="800" height="600" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=s40523241&amp;amp;gh_repo=cp2019&amp;amp;gh_path=downloads/dart_ex/flags&amp;amp;theme=dark" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 </t>
 <t tx="leo.20180902120523.2"></t>
 <t tx="leo.20180902120523.3">@language xml
@@ -296,18 +293,5 @@ QLineEdit#editorLabel {
 }</t>
 <t tx="leo.20180902120538.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
-<t tx="leo.20200108234617.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20200108234617.2">## 畫國旗
-&lt;iframe width="800" height="600" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=s40523241&amp;amp;gh_repo=cp2019&amp;amp;gh_path=downloads/dart_ex/flags&amp;amp;theme=dark"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 </tnodes>
 </leo_file>
