@@ -309,7 +309,7 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20200109021333.2">60</t>
+<t tx="leo.20200109021333.2">:63</t>
 <t tx="leo.20200109022526.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
     #心得
